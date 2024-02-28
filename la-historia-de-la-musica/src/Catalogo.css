@@ -1,0 +1,47 @@
+.app-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.App-header {
+    background-color: #042b7a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(75, 2, 2);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .artist-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #sup{
+    margin-left: 190px;
+  }
+
+  .card-item{
+    width: 33%;
+    margin-bottom: 20px;
+  }
+
