@@ -8,6 +8,7 @@ import Albums from './Albums';
 import artistas from './artistas.json';
 import Catalogo from './Catalogo';
 import Songs from './Songs';
+//import { useFetch } from './useFetch';
 
 const artistasn = [
   {
@@ -50,6 +51,8 @@ const artistasn = [
 
 
 const App = () => {
+  //const {data} = useFetch(url)
+
   return (
         <BrowserRouter>
         <Navbar />
