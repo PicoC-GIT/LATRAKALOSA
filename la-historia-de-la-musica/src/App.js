@@ -58,8 +58,9 @@ const App = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Catalogo artistas={artistasn}/>}></Route>
-            <Route path="/albumes" element={<Albums />}></Route>
+            <Route path="/albumes/:id" element={<Albums />}></Route>
             <Route path="/canciones" element={<Songs />}></Route>
+            
           </Routes>
         </BrowserRouter>
   );
